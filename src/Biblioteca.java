@@ -58,6 +58,8 @@ public class Biblioteca {
         }
     }
 
+
+
     public void emprestarLivro(String titulo, String cpf){
         Usuario usuario = buscarUserCpf(cpf);
         Livro livro = buscarLivrosTitulo(titulo);
